@@ -9,19 +9,8 @@ public class AreaProductCalculator extends AreaCalculator {
 		this.areasum = 1.0;
 	}
 
-	public void areasumCalculate(Shape curShape){
+	public void areasumCalculate(Shape curShape) {
 		this.areasum *= curShape.area();
-	}
-
-	public void calculate() {
-		Iterator<Shape> iter = shapes.iterator();
-
-		setAreasum();
-
-		while (iter.hasNext()) {
-			Shape curShape = iter.next();
-			areasumCalculate(curShape);
-		}
 	}
 
 }
