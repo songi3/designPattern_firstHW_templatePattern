@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class AreaSumCalculator extends AreaCalculator {
 
-	public String calcShow() {
+	public String getCalcName() {
 		String name = "AreaSumCalculator : ";
 		return name;
 	}

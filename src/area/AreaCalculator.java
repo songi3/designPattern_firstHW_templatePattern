@@ -10,7 +10,7 @@ public abstract class AreaCalculator {
 
 	public abstract void setAreasum();
 
-	public abstract String calcShow();
+	public abstract String getCalcName();
 
 	public abstract void areasumCalculate(Shape curShape);
 

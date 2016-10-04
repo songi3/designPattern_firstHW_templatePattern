@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class AreaProductCalculator extends AreaCalculator {
 
-	public String calcShow() {
+	public String getCalcName() {
 		String name = "AreaProductCalculator : ";
 		return name;
 	}

@@ -9,6 +9,6 @@ public class ConsolePrinter {
 	}
 
 	public void print() {
-		System.out.println(ac.calcShow()+ " : " +ac.getAreasum()+"\n");
+		System.out.println(ac.getCalcName()+ " : " +ac.getAreasum()+"\n");
 	}
 }
