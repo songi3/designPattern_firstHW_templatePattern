@@ -5,6 +5,10 @@ import java.util.Iterator;
 
 public class AreaSumCalculator extends AreaCalculator {
 	
+	public void calcPrint(){
+		System.out.println("AreaSumCalculator : ");
+	}
+	
 	public void setAreasum() {
 		this.areasum = 0.0;
 	}

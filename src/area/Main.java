@@ -8,7 +8,9 @@ public class Main {
 		Rect r2 = new Rect(100, 200);
 
 		Circle c1 = new Circle(20);
-	
+			
+		Triangle t1 = new Triangle(10,20);
+		
 		AreaSumCalculator ac = new AreaSumCalculator();
 		ac.addShape(r1);
 		ac.addShape(r2);
@@ -24,10 +26,12 @@ public class Main {
 		AreaProductCalculator pc = new AreaProductCalculator();
 		pc.addShape(r1);
 		pc.addShape(r2);
-
+		
 		pc.calculate();
 
 		pr1.setAreaCalculator(pc); // 의존성 주입
 		pr1.print();
+		
+		
 	}
 }
