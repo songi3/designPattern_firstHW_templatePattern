@@ -4,11 +4,12 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class AreaSumCalculator extends AreaCalculator {
-	
-	public void calcPrint(){
-		System.out.println("AreaSumCalculator : ");
+
+	public String calcShow() {
+		String name = "AreaSumCalculator : ";
+		return name;
 	}
-	
+
 	public void setAreasum() {
 		this.areasum = 0.0;
 	}

@@ -7,9 +7,11 @@ public abstract class AreaCalculator {
 
 	protected ArrayList<Shape> shapes = new ArrayList<Shape>();
 	protected double areasum;
+
 	public abstract void setAreasum();
-	public abstract void calcPrint();
-	
+
+	public abstract String calcShow();
+
 	public abstract void areasumCalculate(Shape curShape);
 
 	public double getAreasum() {

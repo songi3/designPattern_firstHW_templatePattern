@@ -5,9 +5,11 @@ import java.util.Iterator;
 
 public class AreaProductCalculator extends AreaCalculator {
 
-	public void calcPrint(){
-		System.out.println("AreaProductCalculator : ");
+	public String calcShow() {
+		String name = "AreaProductCalculator : ";
+		return name;
 	}
+
 	public void setAreasum() {
 		this.areasum = 1.0;
 	}
